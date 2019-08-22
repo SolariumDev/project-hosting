@@ -1,0 +1,31 @@
+p.left{
+	text-align: left;
+	color: #000;
+}
+#bg{
+	background-color: #fff;
+}	
+#font{
+	font-family: 'Roboto';
+	font-size: 40px;
+}
+
+.font{
+	font-family: 'Roboto', Arial, sans-serif;
+	font-size: 40px;
+	color:yellow;
+}
+
+/* unvisited link */
+.link1:link {
+  color: yellow;
+  font-size: 40px;
+}
+
+/* mouse over link */
+.link1:hover {
+  color: red;
+}
+.link1:active{
+	color:pink;
+}

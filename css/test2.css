@@ -1,0 +1,35 @@
+body
+{
+background-image: url(../img/about_me2.jpg);
+background-size: 700px;	
+
+}
+.title
+{
+	text-align: center;
+	font-style: serif;
+	border-width: 2px;
+	border-color: #FFA064;
+	border-style: double;	
+}
+.listLeft
+{
+	font-style: sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	color: #FD9769;
+	border-
+}
+.padding-test
+{
+	border-width: 1px;
+	border-color: blue;
+	border-style: solid;
+	padding-top: 6px;
+	padding-right: 7px;
+	padding-bottom: 8px;
+	padding-left: 9px;
+	font-style: serif;
+	font-size: 40px;
+}
+

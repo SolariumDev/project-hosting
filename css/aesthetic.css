@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Blog</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to my blog</h1>
+    <nav>
+      <a href="">About me</a>
+      &nbsp;&nbsp;&nbsp;
+      <a href="">Contact</a>
+      &nbsp;&nbsp;&nbsp;
+      <a href="">Blog</a>
+      &nbsp;&nbsp;&nbsp;
+    </nav>
+  </header>
+  <main>
+    <table border=1 width=100%>
+      <tr>
+        <td width=25%>
+          <article>
+            <h3>Welcome to HTML</h3>
+            <small>21, October 2030</small>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nostrum odio sit, obcaecati enim voluptatibus possimus maiores mollitia neque officiis.
+            </p>
+            <a href="">Read More</a>
+          </article>
+          <hr>
+                    <article>
+            <h3>Welcome to CSS</h3>
+            <small>22, October 2030</small>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nostrum odio sit, obcaecati enim voluptatibus possimus maiores mollitia neque officiis.
+            </p>
+            <a href="">Read More</a>
+          </article>
+          <hr>
+                    <article>
+            <h3>Welcome to JavaScript</h3>
+            <small>23, October 2030</small>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nostrum odio sit, obcaecati enim voluptatibus possimus maiores mollitia neque officiis.
+            </p>
+            <a href="">Read More</a>
+          </article>
+        </td>
+        <td valign=top>
+          <form action="" method="GET">
+            <label for="firstname">First Name:</label> <br>
+            <input type="text" name="firstname" id="firstname" placeholder="Your first name" required="required"> <br>
+            <label for="lastname">Last name:</label><br>
+            <input type="text" name="lastname" id="lastname" placeholder="Your last name" required="required"><br>
+           <label for="email">Email:</label> <br>
+            <input type="email" name="email" id="email" placeholder="example@email.com" required="required"> <br>
+            <label for="checkbox">Do you accept our <a href="">terms and conditions.</a> </label>
+       <br> <input type="checkbox" name="" id="">Yes <input type="checkbox" name="" id="">No
+            <br>
+            <button type="submit" name="submit">Submit</button>
+            
+          </form>
+        </td>
+      </tr>
+    </table>
+  </main>
+  <footer>
+    &copy; 2030 www.mywebsite.com
+  </footer>
+</body>
+</html>

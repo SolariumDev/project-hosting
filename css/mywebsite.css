@@ -1,0 +1,100 @@
+h1{
+    color: white;
+    text-shadow: 2px 2px #000;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    font-weight: bold;
+    word-spacing: 3px;
+    font-family: Futura, ‘sans-serif’;
+}
+head,
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 17px;
+  color: rgba(226, 35, 35, 0.719);
+}
+#align {
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 1px #000;
+  float: right;
+  clear: both;
+  padding-right: 50px;
+}
+input {
+  border: 2px solid #000;
+  width: 100%;
+  border-radius: 20px;
+  padding: 5px;
+}
+#bg {
+  background-image: url(https://i.redd.it/kdzfku5tbmt21.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+article {
+  border: 1px solid black;
+  padding: 20px;
+}
+#bg2 {
+  background-color: rgb(9, 64, 68);
+  border-radius: 20px;
+}
+h3 {
+  text-align: center;
+}
+header {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: rgba(226, 35, 35, 0.719);
+  font-weight: bold;
+}
+#contact {
+  font-size: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(9, 64, 68)
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: rgba(226, 35, 35, 0.719);
+}
+.read-more{
+    padding-left: 20px;
+    color: #fff;
+    vertical-align: 0.5cm;
+    margin-left: 20px;
+}
+small{
+    vertical-align: 1.5cm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+
+}
+h3{
+    text-decoration: underline;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+    font-family: Futura, ‘sans-serif’;
+    font-size: 25px;
+}

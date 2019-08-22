@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="../css/mywebsite.css" />
+    <title>Blog</title>
+  </head>
+  <body id="bg">
+    <header>
+      <h1>Welcome to my blog</h1>
+      <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li style="float:right"><a class="active" href="#about">About</a></li>
+          </ul>
+      </nav>
+    </header>
+    <main>
+      <table width="100%">
+        <tr>
+          <td width="75%">
+            <article id="bg2" class="module">
+              <h3>Welcome to HTML</h3>
+              <small>21, October 2030</small>
+              <div>
+                <video
+                  src="../videos/take_you_there.mp4"
+                  controls="controls"
+                  width="100%"
+                ></video>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                nostrum odio sit, obcaecati enim voluptatibus possimus maiores
+                mollitia neque officiis.
+              </p>
+              <a href="" class="read-more">Read More</a>
+            </article>
+            <hr />
+            <article id="bg2" class="module">
+              <h3>Welcome to CSS</h3>
+              <small>22, October 2030</small>
+              <img
+                src="../img/about_me.jpg"
+                alt="Test Image"
+                title="Test Image"
+                s
+                width="100%"
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                nostrum odio sit, obcaecati enim voluptatibus possimus maiores
+                mollitia neque officiis.
+              </p>
+              <a href="" class="read-more">Read More</a>
+            </article>
+            <hr />
+            <article id="bg2" class="module">
+              <h3>Welcome to JavaScript</h3>
+              <small>23, October 2030</small>
+              <img src="../img/background.jpg" alt="test image" title="test image" width="100%">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                nostrum odio sit, obcaecati enim voluptatibus possimus maiores
+                mollitia neque officiis.
+              </p>
+              <a href="" class="read-more">Read More</a>
+            </article>
+          </td>
+          <div>
+            <!-- Don't change the inline CSS if you do it breaks for some reason -->
+            <td id="align">
+              <form action="" method="GET">
+                <h4>Subscribe to our news letter!</h4>
+                <div class="input">
+                  <h3></h3>
+                  <label for="firstname">First Name:</label> <br />
+                  <input
+                    type="text"
+                    name="firstname"
+                    id="firstname"
+                    placeholder="Your first name"
+                    required="required"
+                  />
+                </div>
+                <br />
+                <div>
+                  <label for="lastname">Last name:</label><br />
+                  <input
+                    type="text"
+                    name="lastname"
+                    id="lastname"
+                    placeholder="Your last name"
+                    required="required"
+                  />
+                </div>
+                <br />
+                <div>
+                  <label for="email">Email:</label> <br />
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="example@email.com"
+                    required="required"
+                  />
+                </div>
+                <br />
+                <div>
+                  <button type="submit" name="submit">Subscribe!</button>
+                </div>
+              </form>
+            </td>
+          </div>
+        </tr>
+      </table>
+    </main>
+    <footer>
+      <div id="contact">
+        <a href="https://facebook.com/" target="_blank"
+          >Learning to code group</a
+        >
+        <br />
+        <a href="https://twitter.com/" target="_blank"
+          ><i class="fa fa-twitter"></i>@sol.dos</a
+        ><br />
+      </div>
+      <p>
+        &copy; 2030 www.mywebsite.com
+      </p>
+    </footer>
+  </body>
+</html>
